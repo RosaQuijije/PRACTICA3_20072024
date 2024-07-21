@@ -5,8 +5,7 @@ import { db } from "./data/db"
 
 function App() {
   const [data, setData]=useState(db)
-  console.log(db)
-  
+   
 
   return (
     <>
